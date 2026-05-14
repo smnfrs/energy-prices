@@ -1,8 +1,8 @@
 # Day-Ahead Energy Price Forecasting (DE-LU)
 
-**[Live Dashboard](https://smnfrse.github.io/energy-prices/)** — daily 24-hour price forecasts
+**[Live Dashboard](https://smnfrs.github.io/energy-prices/)** — daily 24-hour price forecasts
 
-<a href="https://smnfrse.github.io/energy-prices/"><img width="922" height="829" alt="grafik" src="https://github.com/user-attachments/assets/7cebb60d-4fca-48f3-a0dc-b0165c09eea3" /></a>
+<a href="https://smnfrs.github.io/energy-prices/"><img width="922" height="829" alt="grafik" src="https://github.com/user-attachments/assets/7cebb60d-4fca-48f3-a0dc-b0165c09eea3" /></a>
 
 Predicting hourly day-ahead electricity prices in the Germany/Luxembourg (DE-LU) bidding area using gradient-boosted tree models with engineered features from energy market fundamentals, cross-border flows, and commodity prices.
 
@@ -23,7 +23,7 @@ I have drawn significantly on two repos to produce this project and want to give
 
 **Data Sources:**
 - **SMARD API** (Bundesnetzagentur): Power generation by source, consumption, cross-border physical flows, and market prices. Hourly resolution, Dec 2014 – present.
-- **EMA forecasts** ([energy_market_analysis](https://github.com/smnfrse/energy_market_analysis)): Weather-based generation and load forecasts for the DE-LU bidding zone. 168h ahead, available by ~08:00 UTC.
+- **EMA forecasts** ([energy_market_analysis](https://github.com/smnfrs/energy_market_analysis)): Weather-based generation and load forecasts for the DE-LU bidding zone. 168h ahead, available by ~08:00 UTC.
 - **Commodity prices**: EU carbon allowances (ICAP), TTF natural gas futures (Yahoo Finance & FRED), Brent crude oil futures (Yahoo Finance).
 
 **Feature Engineering:**
@@ -50,7 +50,7 @@ The production model is a blended ensemble of 8 individual models (2 per categor
 weight_i = (1 / MAE_i) / sum(1 / MAE_j for all j)
 ```
 
-Generation and load forecasts are produced by a companion project ([energy_market_analysis](https://github.com/smnfrse/energy_market_analysis)) using weather forecast data, and are available by ~08:00 UTC — before the day-ahead auction at ~12:00 CET.
+Generation and load forecasts are produced by a companion project ([energy_market_analysis](https://github.com/smnfrs/energy_market_analysis)) using weather forecast data, and are available by ~08:00 UTC — before the day-ahead auction at ~12:00 CET.
 
 **GitHub Actions automation:**
 - `daily_forecast.yml` — runs at 08:00 UTC daily: data update → EMA forecast overlay → inference → deploy

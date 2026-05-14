@@ -23,7 +23,7 @@ from src.config import DATA_DIR, EMA_DATA_DIR, EMA_HISTORICAL_FORECASTS_DIR
 # URL for when the CSV is deployed to GitHub Pages.
 # Falls back to local EMA repo path if the URL is unavailable.
 EMA_CSV_URL = (
-    "https://smnfrse.github.io/energy_market_analysis/data/DE/downloads/national_forecasts.csv"
+    "https://smnfrs.github.io/energy_market_analysis/data/DE/downloads/national_forecasts.csv"
 )
 
 # Local path (both repos on the same machine)

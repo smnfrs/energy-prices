@@ -117,7 +117,7 @@ def run_inference(skip_update: bool = False, skip_ema: bool = False) -> dict:
 
 
 RELEASE_ASSET_URL = (
-    "https://github.com/smnfrse/energy-prices/releases/download/"
+    "https://github.com/smnfrs/energy-prices/releases/download/"
     "data-latest/merged_dataset_hourly.parquet"
 )
 
