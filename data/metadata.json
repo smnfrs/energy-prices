@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-18T08:39:08.253376+00:00",
-  "forecast_date": "2026-08-19",
+  "last_updated": "2026-08-19T08:39:36.853688+00:00",
+  "forecast_date": "2026-08-20",
   "blend_mae": 17.6693,
   "blend_rmse": 31.9346,
   "blend_me": -6.4877,
@@ -9,8 +9,8 @@
   "needs_reselection": false,
   "model_categories": [
     "xgboost",
-    "linear",
     "lgbm",
+    "linear",
     "catboost"
   ],
   "last_retrain": "2026-08-15T06:57:38.291128+00:00",
