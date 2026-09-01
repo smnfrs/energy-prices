@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created": "2026-03-20T22:13:03.690768+00:00",
-  "updated": "2026-08-15T06:57:38.291128+00:00",
+  "updated": "2026-09-01T11:39:56.326104+00:00",
   "holdout_days": 90,
   "models": [
     {
@@ -11,9 +11,9 @@
       "source_run_id": "0fdc54d897b24e349676a0552a17e82e",
       "dataset_run_id": "6f9620ae05b846aa90cc7108bb4bbe54",
       "group_size": 24,
-      "weight": 0.122516,
-      "holdout_mae": 20.0812,
-      "holdout_rmse": 34.8976
+      "weight": 0.125573,
+      "holdout_mae": 20.5985,
+      "holdout_rmse": 34.0865
     },
     {
       "name": "catboost_1",
@@ -22,9 +22,9 @@
       "source_run_id": "36f291901c2d4d6a8ba7d82ba0e6a7f2",
       "dataset_run_id": "02572f2cbf0340ca8dbe09de39b540b4",
       "group_size": 24,
-      "weight": 0.141239,
-      "holdout_mae": 17.4193,
-      "holdout_rmse": 32.9827
+      "weight": 0.140278,
+      "holdout_mae": 18.4393,
+      "holdout_rmse": 32.6744
     },
     {
       "name": "lgbm_2",
@@ -33,9 +33,9 @@
       "source_run_id": "5ed0bc147f86428380d09f056d3bafa7",
       "dataset_run_id": "02572f2cbf0340ca8dbe09de39b540b4",
       "group_size": 24,
-      "weight": 0.12758,
-      "holdout_mae": 19.2842,
-      "holdout_rmse": 33.173
+      "weight": 0.127095,
+      "holdout_mae": 20.3519,
+      "holdout_rmse": 33.5088
     },
     {
       "name": "lgbm_3",
@@ -44,9 +44,9 @@
       "source_run_id": "4ad5a65512494727a60a262a12e2a428",
       "dataset_run_id": "6f9620ae05b846aa90cc7108bb4bbe54",
       "group_size": 24,
-      "weight": 0.127336,
-      "holdout_mae": 19.3211,
-      "holdout_rmse": 33.6144
+      "weight": 0.127388,
+      "holdout_mae": 20.305,
+      "holdout_rmse": 33.0743
     },
     {
       "name": "linear_4",
@@ -55,9 +55,9 @@
       "source_run_id": "0a22379c9cb6499c956ec57c7cef421b",
       "dataset_run_id": "843c81c56db74ea884cabcb43db65d6c",
       "group_size": 1,
-      "weight": 0.103616,
-      "holdout_mae": 23.7441,
-      "holdout_rmse": 37.8237
+      "weight": 0.112991,
+      "holdout_mae": 22.8922,
+      "holdout_rmse": 35.9549
     },
     {
       "name": "linear_5",
@@ -66,9 +66,9 @@
       "source_run_id": "c749182fce7b4b05987f4881f28c9455",
       "dataset_run_id": "843c81c56db74ea884cabcb43db65d6c",
       "group_size": 1,
-      "weight": 0.103483,
-      "holdout_mae": 23.7747,
-      "holdout_rmse": 37.8608
+      "weight": 0.11308,
+      "holdout_mae": 22.8743,
+      "holdout_rmse": 35.935
     },
     {
       "name": "xgboost_6",
@@ -77,9 +77,9 @@
       "source_run_id": "ee698672b312486da24fd7a4929d24bf",
       "dataset_run_id": "02572f2cbf0340ca8dbe09de39b540b4",
       "group_size": 24,
-      "weight": 0.136147,
-      "holdout_mae": 18.0707,
-      "holdout_rmse": 32.1507
+      "weight": 0.123373,
+      "holdout_mae": 20.9658,
+      "holdout_rmse": 34.7777
     },
     {
       "name": "xgboost_7",
@@ -88,15 +88,15 @@
       "source_run_id": "5859b2a420ff4e0a900ab95aa40569c7",
       "dataset_run_id": "02572f2cbf0340ca8dbe09de39b540b4",
       "group_size": 24,
-      "weight": 0.138082,
-      "holdout_mae": 17.8174,
-      "holdout_rmse": 32.2982
+      "weight": 0.130222,
+      "holdout_mae": 19.8632,
+      "holdout_rmse": 33.9925
     }
   ],
-  "blend_mae": 17.6693,
-  "blend_rmse": 31.9346,
-  "blend_me": -6.4877,
-  "blend_r2": 0.7902,
+  "blend_mae": 18.5802,
+  "blend_rmse": 31.5751,
+  "blend_me": -9.5792,
+  "blend_r2": 0.7932,
   "needs_reselection": false,
-  "blend_run_id": "98a7533a665d41de9b7a4a0363ce3bc2"
+  "blend_run_id": "c50c0c3100c245f799ec13412024bc89"
 }
